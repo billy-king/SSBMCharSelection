@@ -2,7 +2,9 @@ let characterChoice = document.querySelector('#characterChoice')
 let characterName = document.querySelector('#characterName')
 
 function changeText(charName) {
-    characterName.innerText = charName    
+    characterName.innerText = charName
+    let yellThis = new SpeechSynthesisUtterance(charName)
+    window.speechSynthesis.speak(yellThis)
 }
 
 // event listeners for each li
