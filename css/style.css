@@ -16,17 +16,16 @@ body {
   align-items: center;
   font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 900;
-  cursor: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freeiconspng.com%2Fimages%2Fcursor-png&psig=AOvVaw0TyjtUzc4MCUjZcMj2JGn6&ust=1721935821716000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwjduI35tMCHAxUnm7AFHZePApwQjRx6BAgAEBg');
-  background-image: url('../assets/marioWorldBG.png');
+  background-image: url('../assets/meleeBG.jpeg');
   background-position: center;
 }
 ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 1rem;
+  gap: .3rem;
   list-style-type: none;
-  width: 800px;
+  width: 1300px;
   border: 1px solid red;
   padding-left: 0;
 }
