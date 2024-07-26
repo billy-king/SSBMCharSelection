@@ -14,6 +14,7 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
+  flex-direction: column;
   font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 900;
   background-image: url('../assets/meleeBG.jpeg');
@@ -26,7 +27,6 @@ ul {
   gap: .3rem;
   list-style-type: none;
   width: 1300px;
-  border: 1px solid red;
   padding-left: 0;
 }
 li {
@@ -38,17 +38,24 @@ img {
   border-radius: 15%;
   border: 3px solid gray;
 }
-section {
+.characterList {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 80%;
   margin: auto;
-  border: 1px solid red;
 }
 img {
   width: 150%;
+}
+h1 {
+  color: white;
+}
+.characterChoice {
+  width: 408px;
+  height: 564px;
+  border: 5px solid gray;
 }
 /******************************************
 /* ADDITIONAL STYLES

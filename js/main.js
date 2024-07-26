@@ -1,4 +1,10 @@
-let body = document.querySelector('section')
+let characterChoice = document.querySelector('#characterChoice')
+let characterName = document.querySelector('#characterName')
+
+function changeText(charName) {
+    characterName.innerText = charName    
+}
+
 // event listeners for each li
 document.querySelector('#drMario').addEventListener('click', drMarioBG)
 document.querySelector('#mario').addEventListener('click', marioBG)
@@ -27,77 +33,102 @@ document.querySelector('#marth').addEventListener('click', marthBG)
 document.querySelector('#roy').addEventListener('click', royBG)
 
 function drMarioBG() {
-    body.style.backgroundImage = "url(assets/drMarioBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/drMarioBG.png)"
+    changeText('Dr. Mario')
 }
 function marioBG() {
-    body.style.backgroundImage = "url(assets/MarioBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/MarioBG.png)"
+    changeText('Mario')
 }
 function luigiBG() {
-    body.style.backgroundImage = "url(assets/luigiBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/luigiBG.png)"
+    changeText('Luigi')
 }
 function bowserBG() {
-    body.style.backgroundImage = "url(assets/bowserBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/bowserBG.png)"
+    changeText('Bowser')
 }
 function peachBG() {
-    body.style.backgroundImage = "url(assets/peachBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/peachBG.png)"
+    changeText('Peach')
 }
 function yoshiBG() {
-    body.style.backgroundImage = "url(assets/yoshiBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/yoshiBG.png)"
+    changeText('Yoshi')
 }
 function dkBG() {
-    body.style.backgroundImage = "url(assets/dkBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/dkBG.png)"
+    changeText('Donkey Kong')
 }
 function captainFalconBG() {
-    body.style.backgroundImage = "url(assets/captainFalconBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/captainFalconBG.png)"
+    changeText('Captain Falcon')
 }
 function ganonBG() {
-    body.style.backgroundImage = "url(assets/ganonBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/ganonBG.png)"
+    changeText('Ganondorf')
 }
 function falcoBG() {
-    body.style.backgroundImage = "url(assets/falcoBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/falcoBG.png)"
+    changeText('Falco')
 }
 function foxBG() {
-    body.style.backgroundImage = "url(assets/foxBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/foxBG.png)"
+    changeText('Fox')
 }
 function nessBG() {
-    body.style.backgroundImage = "url(assets/nessBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/nessBG.png)"
+    changeText('Ness')
 }
 function iciesBG() {
-    body.style.backgroundImage = "url(assets/iciesBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/iciesBG.png)"
+    changeText('Ice Climbers')
 }
 function kirbyBG() {
-    body.style.backgroundImage = "url(assets/kirbyBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/kirbyBG.png)"
+    changeText('Kirby')
 }
 function samusBG() {
-    body.style.backgroundImage = "url(assets/samusBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/samusBG.png)"
+    changeText('Samus')
 }
 function zeldaSheikBG() {
-    body.style.backgroundImage = "url(assets/zeldaBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/zeldaBG.png)"
+    changeText('Zelda')
 }
 function linkBG() {
-    body.style.backgroundImage = "url(assets/linkBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/linkBG.png)"
+    changeText('Link')
 }
 function youngLinkBG() {
-    body.style.backgroundImage = "url(assets/youngLinkBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/youngLinkBG.png)"
+    changeText('Young Link')
 }
 function pichuBG() {
-    body.style.backgroundImage = "url(assets/pichuBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/pichuBG.png)"
+    changeText('Pichu')
 }
 function pikachuBG() {
-    body.style.backgroundImage = "url(assets/pikachuBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/pikachuBG.png)"
+    changeText('Pikachu')
 }
 function jPuffBG() {
-    body.style.backgroundImage = "url(assets/jPuffBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/jPuffBG.png)"
+    changeText('Jigglypuff')
 }
 function mewtwoBG() {
-    body.style.backgroundImage = "url(assets/mewtwoBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/mewtwoBG.png)"
+    changeText('Mewtwo')
 }
 function mrGaWBG() {
-    body.style.backgroundImage = "url(assets/mrGaWBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/mrGaWBG.png)"
+    changeText('Mr. Game & Watch')
 }
 function marthBG() {
-    body.style.backgroundImage = "url(assets/marthBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/marthBG.png)"
+    changeText('Marth')
 }
 function royBG() {
-    body.style.backgroundImage = "url(assets/royBG.png)"
+    characterChoice.style.backgroundImage = "url(assets/royBG.png)"
+    changeText('Roy')
 }
